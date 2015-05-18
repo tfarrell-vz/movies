@@ -7,7 +7,5 @@ toy_story = media.Movie("Toy Story",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc",
                         )
 
-# print(toy_story.storyline)
-# toy_story.show_trailer()
-
-fresh_tomatoes.open_movies_page([toy_story])
+movies = []
+fresh_tomatoes.open_movies_page(movies)
