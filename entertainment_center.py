@@ -17,15 +17,19 @@ the_matrix = media.Movie("The Matrix",
                          )
 
 eternal_sunshine = media.Movie("Eternal Sunshine of the Spotless Mind",
-                               "Memories",
+                               "Without our memories will we be the same?",
                                "https://infinitecrescendo.files.wordpress.com/2014/03/"
                                "eternal-sunshine-of-the-spotless-mind-poster.jpg",
                                "https://www.youtube.com/watch?v=lnSgSe2GzDc"
                                )
 
+lotr_two_towers = media.Movie("Lord of the Rings: The Two Towers",
+                              "Sequel to Lord of the Rings: The Fellowship of the Ring",
+                              "http://img4.wikia.nocookie.net/__cb20150203041214/lotr/images/9/98/The_two_tower.jpg",
+                              "https://www.youtube.com/watch?v=LbfMDwc4azU")
 
 # Package the movie instances into a List of movies.
-movies = [transformers, the_matrix, eternal_sunshine]
+movies = [transformers, the_matrix, eternal_sunshine, lotr_two_towers]
 
 # Generate the html and open the browser to it.
 fresh_tomatoes.open_movies_page(movies)
