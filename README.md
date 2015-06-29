@@ -9,7 +9,7 @@ A pre-rendered version of the html is already provided, but I encourage you to t
 the page via the entertainment_center.py. It will automatically load the browser at runtime.
 
 To add movies, simply locate your favorite movie information via a search engine and plug it into an instance of the `Movie`
-class. Once you have instantiated a movie object, append it to the `movies` list.
+class (refer to `media.py`). Once you have instantiated a movie object in `entertainment_center.py`, append it to the `movies` list.
 
 ## Building the website
 
