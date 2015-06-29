@@ -11,13 +11,20 @@ the page via the entertainment_center.py. It will automatically load the browser
 To add movies, simply locate your favorite movie information via a search engine and plug it into an instance of the `Movie`
 class. Once you have instantiated a movie object, append it to the `movies` list.
 
-## View the website
-
-- Open the fresh_tomatoes.html file in your web browser.
-
-## Building the website and launching browser from python
+## Building the website
 
 - From your terminal:
 ```
 python entertainment_center.py
 ```
+
+I prefer using python3, and encourage others to use python3 whenever possible. The only way to move forward is for new
+python code to be written in python3. It's a lovely language and we owe it the favor.
+
+Download python 3.x from the [official website](https://www.python.org/downloads/).
+
+> Short version: Python 2.x is legacy, Python 3.x is the present and future of the language
+
+## View the website
+
+Open the fresh_tomatoes.html file in your web browser.
