@@ -13,7 +13,7 @@ class. Once you have instantiated a movie object, append it to the `movies` list
 
 ## Building the website
 
-- From your terminal:
+From your terminal:
 ```
 python entertainment_center.py
 ```
