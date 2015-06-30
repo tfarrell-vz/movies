@@ -14,7 +14,8 @@ transformers = media.Movie("Transformers: The Movie",
                            "Transformers-movieposter-west.jpg/"
                            "220px-Transformers-movieposter-west.jpg",
                            "https://www.youtube.com/watch?v=4lo7JPLJUUU",
-                           84
+                           84,
+                           "Peter Cullen, Leonard Nimoy, Robert Stack"
                            )
 
 the_matrix = media.Movie("The Matrix",
@@ -23,7 +24,9 @@ the_matrix = media.Movie("The Matrix",
                          "http://www.impawards.com/1999/"
                          "posters/matrix_ver1.jpg",
                          "https://www.youtube.com/watch?v=m8e-FF8MsqU",
-                         136
+                         136,
+                         "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss,"
+                         "Hugo Weaving"
                          )
 
 eternal_sunshine = media.Movie("Eternal Sunshine of the Spotless Mind",
@@ -33,7 +36,8 @@ eternal_sunshine = media.Movie("Eternal Sunshine of the Spotless Mind",
                                "eternal-sunshine-of-the-"
                                "spotless-mind-poster.jpg",
                                "https://www.youtube.com/watch?v=lnSgSe2GzDc",
-                               108
+                               108,
+                               "Jim Carrey, Kate Winslet"
                                )
 
 lotr_two_towers = media.Movie("Lord of the Rings: The Two Towers",
@@ -43,7 +47,8 @@ lotr_two_towers = media.Movie("Lord of the Rings: The Two Towers",
                               "__cb20150203041214/"
                               "lotr/images/9/98/The_two_tower.jpg",
                               "https://www.youtube.com/watch?v=LbfMDwc4azU",
-                              179
+                              179,
+                              "Elijah Wood, Ian McKellen, Viggo Mortensen"
                               )
 
 star_wars = media.Movie("Star Wars",
@@ -52,7 +57,8 @@ star_wars = media.Movie("Star Wars",
                         "057/3/8/star_wars_iv___"
                         "a_new_hope___movie_poster_by_nei1b-d5t3cw9.jpg",
                         "https://www.youtube.com/watch?v=1g3_CFmnU7k",
-                        121
+                        121,
+                        "Mark Hamill, Harrison Ford, Carrie Fisher"
                         )
 
 empire_strikes_back = media.Movie("Star Wars: The Empire Strikes Back",
@@ -66,7 +72,8 @@ empire_strikes_back = media.Movie("Star Wars: The Empire Strikes Back",
                                   "?1415977989",
                                   "https://www.youtube.com/watch?"
                                   "v=mz_YWNhKOkM",
-                                  124
+                                  124,
+                                  "Mark Hamill, Harrison Ford, Carrie Fisher"
                                   )
 
 # Package the movie instances into a List of movies.
