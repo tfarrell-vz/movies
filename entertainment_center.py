@@ -4,6 +4,8 @@ import media
 # Some of the strings were too long to remain singly-lined.
 # Pay close attention to commas to differentiate arguments.
 
+# Duration and star data came from IMDB. www.imdb.com
+
 # The original Transformers movie from 1986
 transformers = media.Movie("Transformers: The Movie",
                            "The Decepticons lead a strike against the Autobots"
