@@ -3,6 +3,8 @@ import media
 
 # Some of the strings were too long to remain singly-lined.
 # Pay close attention to commas to differentiate arguments.
+
+# The original Transformers movie from 1986
 transformers = media.Movie("Transformers: The Movie",
                            "The Decepticons lead a strike against the Autobots"
                            " only for both to discover "
@@ -12,6 +14,7 @@ transformers = media.Movie("Transformers: The Movie",
                            "Transformers-movieposter-west.jpg/"
                            "220px-Transformers-movieposter-west.jpg",
                            "https://www.youtube.com/watch?v=4lo7JPLJUUU",
+                           84
                            )
 
 the_matrix = media.Movie("The Matrix",
@@ -19,7 +22,8 @@ the_matrix = media.Movie("The Matrix",
                          "dream world and the real world?",
                          "http://www.impawards.com/1999/"
                          "posters/matrix_ver1.jpg",
-                         "https://www.youtube.com/watch?v=m8e-FF8MsqU"
+                         "https://www.youtube.com/watch?v=m8e-FF8MsqU",
+                         136
                          )
 
 eternal_sunshine = media.Movie("Eternal Sunshine of the Spotless Mind",
@@ -28,7 +32,8 @@ eternal_sunshine = media.Movie("Eternal Sunshine of the Spotless Mind",
                                "files.wordpress.com/2014/03/"
                                "eternal-sunshine-of-the-"
                                "spotless-mind-poster.jpg",
-                               "https://www.youtube.com/watch?v=lnSgSe2GzDc"
+                               "https://www.youtube.com/watch?v=lnSgSe2GzDc",
+                               108
                                )
 
 lotr_two_towers = media.Movie("Lord of the Rings: The Two Towers",
@@ -37,14 +42,17 @@ lotr_two_towers = media.Movie("Lord of the Rings: The Two Towers",
                               "http://img4.wikia.nocookie.net/"
                               "__cb20150203041214/"
                               "lotr/images/9/98/The_two_tower.jpg",
-                              "https://www.youtube.com/watch?v=LbfMDwc4azU")
+                              "https://www.youtube.com/watch?v=LbfMDwc4azU",
+                              179
+                              )
 
 star_wars = media.Movie("Star Wars",
                         "A long time ago in a galaxy far, far away...",
                         "http://pre01.deviantart.net/6628/th/pre/i/2013/"
                         "057/3/8/star_wars_iv___"
                         "a_new_hope___movie_poster_by_nei1b-d5t3cw9.jpg",
-                        "https://www.youtube.com/watch?v=1g3_CFmnU7k"
+                        "https://www.youtube.com/watch?v=1g3_CFmnU7k",
+                        121
                         )
 
 empire_strikes_back = media.Movie("Star Wars: The Empire Strikes Back",
@@ -56,7 +64,9 @@ empire_strikes_back = media.Movie("Star Wars: The Empire Strikes Back",
                                   "000/138/527/original/"
                                   "star-wars-empire-strikes-back-poster.jpg"
                                   "?1415977989",
-                                  "https://www.youtube.com/watch?v=mz_YWNhKOkM"
+                                  "https://www.youtube.com/watch?"
+                                  "v=mz_YWNhKOkM",
+                                  124
                                   )
 
 # Package the movie instances into a List of movies.
