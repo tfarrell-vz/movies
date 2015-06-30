@@ -1,5 +1,8 @@
 import webbrowser
 
+
+# The movie class serves as a data container for movie information to be used
+# in movie tiles on the movie trailer website.
 class Movie():
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
@@ -8,6 +11,7 @@ class Movie():
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
+        """
+        Opens the user's browser to the movie's trailer.
+        """
         webbrowser.open(self.trailer_youtube_url)
-
-
